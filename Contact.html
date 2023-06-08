@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+
+    <head>
+        <title>Order Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="F:\project\RedStore_Img\images\logo.png" width="325 px">
+                        
+    
+                    </div>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/Products.html" target="_blank">Products</a></li>
+                        <li><a href="About.html" target="_blank">About</a></li>
+                        <li><a href="Contact.html" target="_blank">Contact</a></li>
+                        <li><a href="Account.html" target="_blank">Account</a></li>
+                    </ul>
+                </nav>
+    
+                    <img src="F:\project\RedStore_Img\images\cart.png" width="30px" height="30px">
+                    <img src="F:\project\RedStore_Img\images\menu.png" class="menu-icon" 
+                    onclick="menutoggle()">
+    
+                </div>
+
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button class="submit-btn">Send Message</button>
+        </form>
+    </div>
+
+
+<!-----------------------------brands------------------>
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="F:\project\RedStore_Img\images\logo-godrej.png">
+            </div>
+            <div class="col-5">
+                <img src="F:\project\RedStore_Img\images\logo-oppo.png">
+            </div>
+            <div class="col-5">
+                <img src="F:\project\RedStore_Img\images\logo-coca-cola.png">
+            </div>
+            <div class="col-5">
+                <img src="F:\project\RedStore_Img\images\logo-paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="F:\project\RedStore_Img\images\logo-philips.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------------footer---------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="F:\project\RedStore_Img\images\play-store.png">
+                    <img src="F:\project\RedStore_Img\images\app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="F:\project\RedStore_Img\images\logo-white.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+
+            </div>
+            
+            <div class="footer-col-1">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>instagram</li>
+                    <li>Youtube</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <hr>
+        <p class="copyright">Copyright2023-raktimmondal</p>
+    </div>
+</div>
+<!--------------------------js for toggle menu---------------------------------->
+<script>
+var MenuItems=document.getElementById("MenuItems");
+MenuItems.style.maxHeight="0px";
+function menutoggle(){
+    if(MenuItems.style.maxHeight=="0px")
+    {
+        MenuItems.style.maxHeight="200px";
+    }
+    else{
+        MenuItems.style.maxHeight="0px";
+    }
+}
+
+</script>
+
+
+
+
+</body>
+
+</html>
